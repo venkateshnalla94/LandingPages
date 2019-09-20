@@ -1,26 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "react-bootstrap/dist/react-bootstrap.js";
+import { BrowserRouter, Route } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Login from "./component/Login_page/Login";
+import Drag from "./component/Drag_n_Drop/Drag";
+import Drop from "./component/Drag_n_Drop/Drop";
+import calender from "./Pages/Calender";
+import Landing from "./Pages/Landing";
+class App extends Component {
+  render() {
+    return (
+      <BrowserRouter>
+        <div>
+          <Route path="/" component={Login} exact />
+          <Route path="/Drag" component={Drag} exact />
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+          <Route path="/landing" component={Landing} exact />
+        </div>
+      </BrowserRouter>
+    );
+  }
 }
 
 export default App;

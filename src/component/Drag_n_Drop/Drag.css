@@ -1,0 +1,12 @@
+#link_box {
+  margin-top: 10%;
+  margin-left: 5%;
+  border-style: ridge;
+  padding: 25px;
+}
+#drop_box {
+  margin-top: 32%;
+  border-style: ridge;
+  width: 540px;
+  height: 320px;
+}

@@ -1,0 +1,20 @@
+#login-box {
+  margin-top: 20%;
+  padding: 10px;
+  font-style: roboto;
+}
+#bg-website {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(https://static.pexels.com/photos/343299/pexels-photo-343299.jpeg)
+      no-repeat center center;
+  font-family: lucida-grande;
+
+  background-size: cover;
+
+  height: 100vh;
+  min-height: 720px;
+  overflow-y: auto;
+}
+#con-box {
+  /* background: rgba(0, 0, 0, 0.5); */
+}

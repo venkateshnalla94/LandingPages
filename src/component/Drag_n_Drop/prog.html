@@ -1,0 +1,208 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Assignment</title>
+  
+</head>
+<body>
+  <style type="text/css">
+    p{
+font-size: 1.3rem;
+    }
+    .question{
+    font-size: 1.5rem;
+    font-weight: bold;
+    }
+    h4{
+      font-size: 1rem;
+      line-height: 1.2rem;
+    }
+  li{
+font-size: 1.5rem;
+}
+h3{
+font-size: 1.4rem;
+ }
+  </style>
+
+
+<h1 style="display: flex;justify-content: center;">Problems</h1>
+
+<h3>
+Web Design
+
+In your opinion, what is the worst design element that every web designer should avoid. Explain.
+
+
+  </h3>
+<p>
+  In my opinions Frames are the least thing that can be involved in a website design. When they stacked up, its hard for desginer to make the deign responsive as the breakpoints become harder and harder.
+</p>
+<p class="question 5">
+  Web Design
+Scenario: Develop a website that takes in a couple of user input and generates a PDF using the
+given user data. Give a high-level outline of how you would approach this project in terms of
+design, user experience and which tool you will use to generate the PDF and why this tool.
+  </p>
+  <p class="answer">
+    I would like to divide the approch into three steps
+    <ul>
+<li>UI design</li>
+<li>UX approach</li>
+<li>Testing</li>
+</ul>
+<p class="Explain">
+  Since we already had requirments gathered, primary scope of concern shift into the content layer, where we will concentrate about the content layer of the design where Ill design my <b>HTML</b> sementics.
+  Later I'll desgin my presentational layer <b>CSS</b>  with responsive desgin
+  Now <b>JS</b> is coded according to the requirments need for the buttons for taking user input and applying, required modifications
+</p>
+<p>Coming to UX, I would request a user to work with prototype designed on UI designed on base UX. And if any difficulties are found then , corresponding changes are made to the desiign.
+  </p>
+
+  <p>Once the design part is over, I would move to test my design with manual testing</p>
+  <h5 style="font-size: 1.2rem"> I would use Latex tool to genrate PDF for the input obtained</h5>
+
+
+    
+  </p>
+<div id="output">
+
+</div>
+<b>Coming to the Solutions of coding Problems
+
+Code included in source code.
+</b>
+
+
+<script type="text/javascript">
+  var dummy = "";
+
+var numbers = [
+  [0, 1, 2, 3],
+  [4, 5, 6, 7],
+  [8, 8, 10, 11],
+  [12, 13, 14, 15],
+  [16, 17, 18, 19],
+  [20, 21, 22, 23],
+  [24, 25, 26, 27],
+  [28, 29, 30, 31],
+  [32, 33, 34, 35]
+];
+
+for (var i = 0; i < numbers.length; i++) {
+  dummy += numbers[i] + ",";
+  console.log(numbers[i]);
+}
+var msg = "<h3>" + dummy + "</h3>";
+document.write(msg);
+
+var temp = 0,
+  temp1 = 0;
+var robert = " ",
+  bruce = " ";
+var marvel = "1-10000,2-10000,3-10000";
+var cap = marvel.split(",");
+for (var i = 0; i < cap.length; i++) {
+  var dummy = cap[i];
+  var sup = dummy.split("-");
+  //[1, 10000r]
+  var flash = parseInt(sup[1]);
+  if (sup[0] == 1) {
+    temp = temp + flash;
+    robert = "Tony Stark " + temp;
+  } else if (sup[0] == 2) {
+    //[2, 10000]
+    temp1 = temp1 + flash;
+    bruce = "Bruce Wayne " + temp1;
+  }
+}
+var msg = "<h4>"+"<br>" + robert + "  " + bruce + "<br>"+"</h4>";
+document.write(msg);
+
+//  var marvel=[
+//    "1-10000","2-10000","3-10000"
+//  ];
+//      var x=marvel.pop();
+//  //console.log(marvel);
+//
+//  for(var i=0;i<marvel.length;i++)
+//  {
+//    if(i<1)
+//  marvel[i]="Tony stark-10000";
+//    else
+//      marvel[i]="Bruce wayne-10000"
+//
+//  }
+//  marvel+="<br>";
+//
+//  console.log(marvel);
+//  document.write(marvel)
+
+//  /////
+//  var dc=[
+//     "1-10000","1-10000","2-10000","3-10000"
+//  ];
+//  var count=0;
+//  for(var i=0;i<dc.length;i++)
+//
+//  {
+//    extra=dc[i];
+//  //  console.log(dc[i]);
+//    if(extra.indexOf("1")==0)
+//    {
+//      count+=10000;
+//       dc[i]="Tony stark-"+count;
+//
+//    }
+//
+//    else if(extra.indexOf("2")==0){
+//      dc[i]="Bruce wayne-10000";
+//    }
+//  }
+//  var dummy1=dc.shift();
+//  dummy1 = dc.pop();
+//
+//  dc+=",";
+//  console.log(dc);
+//  console.log(dummy1);
+//  document.write(dc);
+//
+
+function getTony() {
+  temp += romanoff;
+  console.log(temp);
+  robert = "Tony Stark " + temp;
+}
+function getBruce() {
+  temp1 += romanoff;
+  bruce = "Bruce wayne " + temp1;
+}
+
+var marvel_universe = "1-10000,1-10000,2-10000,3-10000";
+var rdj = marvel_universe.split(",");
+var cap;
+var robert = " ",
+  bruce = " ";
+var temp = 0,
+  temp1 = 0;
+for (var i = 0; i < rdj.length; i++) {
+  cap = rdj[i];
+  var pick = cap.split("-");
+  var hawck = parseInt(pick[0]);
+  var romanoff = parseInt(pick[1]);
+  if (hawck == 1) {
+    getTony();
+  } else if (hawck == 2) {
+    getBruce();
+  }
+}
+var msg = robert + " " + bruce;
+marvel_universe = "<h4>"+msg+"</h4>";
+document.write(marvel_universe);
+
+</script>
+</body>
+</html>
