@@ -6,7 +6,7 @@ import FormControl from "react-bootstrap/FormControl";
 import Button from "react-bootstrap/Button";
 import Nav from "react-bootstrap/Nav";
 import Carousel from "react-bootstrap/Carousel";
-import "../Pages/jQuery.js";
+
 import $ from "jquery";
 $("#para").fadeIn(2000);
 const Landing = () => {

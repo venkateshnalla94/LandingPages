@@ -22,12 +22,15 @@
   grid-area: head;
 }
 .selection {
+
+    
   grid-area: selection;
 }
 header {
   color: white;
   font-size: 1rem !important;
-  font-weight: 200 !important;
+  
+    font-weight: 200 !important;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -75,4 +78,14 @@ header {
 }
 .collection {
   overflow: scroll;
+}
+.text{
+  letter-spacing: 5px;
+  font-weight: 300;
+  font-size: 1.5em;
+}
+
+.blackbackground{
+  background-color: black;
+  color: white;
 }

@@ -67,7 +67,6 @@ class Drag extends Component {
               </Tab.Container>
             </div>
           </div>
-
           <div className="col-md-4">
             <div className="container" id="drop_box">
               <div
@@ -145,7 +144,7 @@ class Drag extends Component {
           src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone8-plus-gold-select-2018?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1550795417455"
           alt="Smiley face"
           draggable="true"
-          //   ondragstart={this.drag(event)}
+        //   ondragstart={this.drag(event)}
         />
       </div>
     );
