@@ -25,7 +25,11 @@ const SignUp = () => {
           <Form.Label>Password</Form.Label>
           <Form.Control type="password" placeholder="Password" />
         </Form.Group>
-        <Form.Group controlId="formGridAddress1">
+        <Form.Group controlId="formGridPassword">
+          <Form.Label>Re Type Password</Form.Label>
+          <Form.Control type="password" placeholder="Password" />
+        </Form.Group>
+        {/* <Form.Group controlId="formGridAddress1">
           <Form.Label>
             Address</Form.Label>
           <Form.Control placeholder="1234 Main St" />
@@ -57,7 +61,7 @@ const SignUp = () => {
         </Form.Row>
         <Form.Group id="formGridCheckbox">
           <Form.Check type="checkbox" label="Check me out" />
-        </Form.Group>
+        </Form.Group> */}
         <Button variant="primary" type="submit">
           Submit</Button>
       </Form>

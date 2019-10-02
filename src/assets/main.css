@@ -89,3 +89,20 @@ header {
   background-color: black;
   color: white;
 }
+
+
+.navBg{
+  background-color: black !important;
+}
+.padzero{
+  color: white;
+  padding: 0%;
+  width: 100%;
+  height: 70vh;
+  background: url(https://i.pinimg.com/originals/3b/84/07/3b84073bdabddf10095f29bdedc18720.jpg)no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}

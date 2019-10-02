@@ -3,6 +3,7 @@ import "../assets/main.css";
 import Form from "react-bootstrap/Form";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
+import { Link } from "react-router-dom";
 const LoginForm = () => {
   return (
     <div>
@@ -15,11 +16,17 @@ const LoginForm = () => {
           <Form.Label>Password</Form.Label>
           <Form.Control type="password" placeholder="Password" />
         </Form.Group>
-        <Button type="submit" variant="primary">Sign In</Button>
+
+        <Link to="/dashboard">
+          <Button type="submit" variant="primary">
+            Sign In
+          </Button>
+        </Link>
+
         {/* <input type="submit"></input> */}
       </Form>
 
-    </div>
+    </div >
 
   );
 };

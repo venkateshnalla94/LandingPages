@@ -7,6 +7,7 @@ import Drag from "./component/Drag_n_Drop/Drag";
 import Drop from "./component/Drag_n_Drop/Drop";
 import Landing from "./Pages/Landing";
 import Homepage from "./Pages/Homepage";
+import DashBoard from "./Pages/DashBoard";
 class App extends Component {
   render() {
     return (
@@ -15,6 +16,7 @@ class App extends Component {
          <Route path="/" component={Landing} exact  />
           <Route path="/Drag" component={Drag} exact />
           <Route path="/Homepage" component={Homepage} exact />
+          <Route path="/dashboard" component={DashBoard} exact />
 
           
         </div>
