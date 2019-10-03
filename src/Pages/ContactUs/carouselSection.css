@@ -1,0 +1,38 @@
+#image-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../img/1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 100 !important;
+}
+
+#image-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../img/2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 100 !important;
+}
+
+#image-3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../img/3.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 100 !important;
+}
+
+#image-4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../img/4.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 100 !important;
+}
+/* .carousel-section {
+  height: 400px !important;
+} */
