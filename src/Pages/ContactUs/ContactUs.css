@@ -1,0 +1,38 @@
+#header-section {
+  background: url("../img/image1.jpg");
+  height: 450px;
+  color: #fff;
+  background-attachment: fixed;
+  /* background-position: 0 -300px; */
+  background-position: center;
+  background-size: cover;
+}
+#contacttext {
+  margin-top: 23%;
+  font-size: 45px;
+}
+.fb-icon {
+  color: #3b5998;
+  margin-right: 10px;
+}
+
+.carousel-inner > .item > img {
+  width: 640px;
+  height: 360px;
+}
+.carousel-item {
+  height: 400px;
+}
+.carousel-image-1 {
+  background: url("../img/1.jpg");
+  background-size: cover;
+}
+
+.carousel-image-2 {
+  background: url("../img/2.jpg");
+  background-size: cover;
+}
+.carousel-image-3 {
+  background: url("../img/3.jpg");
+  background-size: cover;
+}
