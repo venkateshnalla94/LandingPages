@@ -40,7 +40,7 @@ const NavBarG = () => {
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="#pricing">Banquet Facility</Nav.Link>
-            <Nav.Link href="#pricing">Catering</Nav.Link>
+            <Nav.Link href="/catering">Catering</Nav.Link>
             <Nav.Link href="/contactus">Contact Us</Nav.Link>
           </Nav>
           <Nav>
