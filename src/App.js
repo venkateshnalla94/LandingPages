@@ -8,6 +8,7 @@ import Landing from "./Pages/Landing";
 import Homepage from "./Pages/Homepage";
 import DashBoard from "./Pages/DashBoard";
 import ContactUs from "./Pages/ContactUs/Contactus";
+import Catering from "./Pages/Catering/Catering";
 class App extends Component {
   render() {
     return (
@@ -17,6 +18,7 @@ class App extends Component {
           <Route path="/Homepage" component={Homepage} exact />
           <Route path="/dashboard" component={DashBoard} exact />
           <Route exact path="/contactus" component={ContactUs} />
+          <Route exact path="/catering" component={Catering} />
         </div>
       </BrowserRouter>
     );
