@@ -1,8 +1,10 @@
 import React, { Fragment } from "react";
+import NavBarG from "../NavBarG";
 import "./Catering.css";
 const Catering = () => {
   return (
     <Fragment>
+      <NavBarG />
       <section id="head-section" className="mb-5">
         <div className="container">
           <div className="row">
@@ -87,10 +89,6 @@ const Catering = () => {
                   <div class="card-title">
                     <h3>$13.95/person</h3>
                   </div>
-                  <p class="mb-2">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Aut, quis.
-                  </p>
 
                   <ul class="list-group list-group-flush mb-2">
                     <li class="list-group-item">3 Appetizers</li>
@@ -117,10 +115,6 @@ const Catering = () => {
                   <div class="card-title">
                     <h3>$15.95/person</h3>
                   </div>
-                  <p class="mb-2">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Aut, quis.
-                  </p>
 
                   <ul class="list-group list-group-flush mb-2">
                     <li class="list-group-item">4 Appetizers</li>
@@ -146,10 +140,6 @@ const Catering = () => {
                   <div class="card-title">
                     <h3>$19.95/person</h3>
                   </div>
-                  <p class="mb-2">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Aut, quis.
-                  </p>
 
                   <ul class="list-group list-group-flush mb-2">
                     <li class="list-group-item">5 Appetizers</li>
