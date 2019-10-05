@@ -9,7 +9,7 @@
 
 #image-2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("../img/2.jpg");
+  url("../img/2.jpg");
   background-size: cover;
   background-position: center;
   height: 300px;
@@ -27,7 +27,7 @@
 
 #image-4 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("../img/4.jpg");
+  url("../img/4.jpg");
   background-size: cover;
   background-position: center;
   height: 300px;

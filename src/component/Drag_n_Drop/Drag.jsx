@@ -3,9 +3,9 @@ import Tab from "react-bootstrap/Tab";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import ListGroup from "react-bootstrap/ListGroup";
-import { link } from "fs";
+
 import "./Drag.css";
-import Drop from "./Drop";
+
 class Drag extends Component {
   state = {
     images: [

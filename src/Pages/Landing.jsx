@@ -8,8 +8,9 @@ import Nav from "react-bootstrap/Nav";
 import Carousel from "react-bootstrap/Carousel";
 
 import $ from "jquery";
-$("#para").fadeIn(2000);
+
 const Landing = () => {
+  alert("Under production. Fork the project to watch progress ");
   return (
     <div>
       <div
@@ -22,9 +23,9 @@ const Landing = () => {
         }}
       >
         <Navbar bg="dark width" variant="dark">
-          <Navbar.Brand href="#home">Home</Navbar.Brand>
+          <Navbar.Brand href="/">Home</Navbar.Brand>
           <Nav className="mr-auto">
-            <Nav.Link href="#gallery">Gallery</Nav.Link>
+            <Nav.Link href="#gallery" >Gallery</Nav.Link>
             <Nav.Link href="#about">About</Nav.Link>
             <Nav.Link href="#tourism">Tourism</Nav.Link>
           </Nav>

@@ -1,13 +1,11 @@
 import React from "react";
 import "../assets/main.css";
-import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
-import Nav from "react-bootstrap/Nav";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import Form from "react-bootstrap/Form"
 import NavBarg from "../Pages/NavBarG";
 const DashBoard = () => {
+  alert("Under production. Fork the project to watch progress ");
   return (
     <div>
       <div
@@ -60,10 +58,12 @@ const DashBoard = () => {
         <div className="row mt-3 mx-auto" style={{ width: "80%", paddingBottom: "5%" }}>
           <div className="col-lg-6">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Uber_Eats_2018_logo.svg/1280px-Uber_Eats_2018_logo.svg.png"
+              alt="img5"
               style={{ width: "100%", height: "auto" }}></img>
           </div>
           <div className="col-lg-6 d-flex justify-content-center">
             <img src="https://i.pinimg.com/originals/20/08/37/20083715ec6934a0339a7596cbb9bcd2.png"
+              alt="img1"
               style={{ width: "30%", height: "auto" }}></img>
           </div>
         </div>
@@ -75,7 +75,7 @@ const DashBoard = () => {
         <div className="row mx-auto mt-4" style={{ width: "80%" }}>
           <div className="col-lg-4" style={{ paddingBottom: "2rem" }}>
             <Card >
-              <Card.Img variant="top" src="https://ssl.c.photoshelter.com/img-get/I0000_t2RSGBl7vw/s/1200/I0000_t2RSGBl7vw.jpg" />
+              <Card.Img variant="top" alt="img2" src="https://ssl.c.photoshelter.com/img-get/I0000_t2RSGBl7vw/s/1200/I0000_t2RSGBl7vw.jpg" />
               <Card.Body>
                 <Card.Title>Gallery</Card.Title>
                 <Card.Text>
@@ -249,6 +249,7 @@ const DashBoard = () => {
       </footer>
       <div className="container-fluid d-flex justify-content-center" style={{ paddingBottom: "4rem" }}>
         <img src="https://gurupalacerestaurant.com/wp-content/uploads/2019/04/footer-logo-1.png"
+          alt="img3"
           style={{ width: "100", height: "auto", marginTop: "-5%", boxShadow: "1px 4px 12px 4px #060606" }}></img>
       </div>
       <p className="text-center" style={{ fontWeight: "700", textShadow: "rgb(140, 131, 131) -1px 4px 7px" }}>

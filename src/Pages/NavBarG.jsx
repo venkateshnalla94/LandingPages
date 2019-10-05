@@ -3,7 +3,6 @@ import "../assets/main.css";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Nav from "react-bootstrap/Nav";
-import Button from "react-bootstrap/Button";
 
 const NavBarG = () => {
   return (
@@ -22,7 +21,7 @@ const NavBarG = () => {
             style={{ height: "auto", width: "60%" }}
           ></img>
         </Navbar.Brand>
-        <Navbar.Brand href="#home">Home</Navbar.Brand>
+        <Navbar.Brand href="/homepage">Home</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">

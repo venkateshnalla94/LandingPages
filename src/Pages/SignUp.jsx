@@ -8,24 +8,24 @@ const SignUp = () => {
     <div>
       <Form className="block">
         <Form.Row>
-          <Form.Group as={Col} controlId="formGridEmail">
+          <Form.Group as={Col} >
             <Form.Label>First Name</Form.Label>
             <Form.Control type="text" placeholder="Enter Name" />
           </Form.Group>
-          <Form.Group as={Col} controlId="formGridPassword">
+          <Form.Group as={Col} >
             <Form.Label>Last Name</Form.Label>
             <Form.Control type="text" placeholder="Last Name" />
           </Form.Group>
         </Form.Row>
-        <Form.Group controlId="formGridAddress1">
+        <Form.Group >
           <Form.Label>User ID</Form.Label>
           <Form.Control type="text" placeholder="Enter User Id" />
         </Form.Group>
-        <Form.Group controlId="formGridPassword">
+        <Form.Group >
           <Form.Label>Password</Form.Label>
           <Form.Control type="password" placeholder="Password" />
         </Form.Group>
-        <Form.Group controlId="formGridPassword">
+        <Form.Group >
           <Form.Label>Re Type Password</Form.Label>
           <Form.Control type="password" placeholder="Password" />
         </Form.Group>

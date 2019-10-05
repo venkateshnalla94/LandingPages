@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 // imported react in the page
 import "../assets/main.css";
 import Jumbotron from "react-bootstrap/Jumbotron";
@@ -9,24 +9,16 @@ import Card from "react-bootstrap/Card"
 import SignUp from "./SignUp";
 import LoginForm from "./LoginForm";
 //Two form for sign up and login
-import Form from "react-bootstrap/Form";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
+import FormAddPlayer from "./FromAddPlayer";
 
-function Homepage() {
-  const [signIn, signUp] = useState(true);
-  function handelSubmit(e) {
-    e.preventDefault()
-    let val = document.getElementById("textName");
-    let _listItem = document.getElementById("listItem");
-    console.log(_listItem.textContent);
-    _listItem.textContent = val.value;
-  }
+const Homepage = () => {
+  alert("Under production. Fork the project to watch progress,,, Click On Home ");
+  // const [signIn, signUp] = useState(true);
   return (
     <div>
       <Jumbotron className="blackbackground" >
         {/* To give the heading in Jumbotron */}
-        <h3 className="d-flex justify-content-around display-4">Home Page</h3>
+        <a style={{ color: "white", textDecoration: "none" }} href="/landing"><h3 className="d-flex justify-content-around display-4" >Home Page</h3></a>
         <p className="d-flex justify-content-around display-5 text gettingStarted">Getting Started</p>
       </Jumbotron>
       <div className="row mx-auto" style={{ width: "90%" }}>
@@ -68,43 +60,9 @@ function Homepage() {
           </div>
         </div>
       </div>
-      <div className="row mx-auto my-5" style={{ width: "80%" }}>
-        <div className="col">
-          <Form>
-            <Row>
-              <Col>
-                <Form.Control id="textName" type="text" placeholder="Name" />
-              </Col>
-              <Col>
-                <Form.Group as={Col} controlId="formGridState">
-                  <Form.Control as="select">
-                    <option>Description.</option>
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                  </Form.Control>
-                </Form.Group>
-              </Col>
-              <Col>
-                <Form.Control className="mx-auto" type="Submit" onClick={handelSubmit} style={{ width: "30%" }} />
-                {/* <Button variant="primary" type="submit">
-                  Submit
-                </Button> */}
-              </Col>
-            </Row>
-          </Form>
-        </div>
-      </div>
-      <div className="row mx-auto my-3" style={{ width: "80%" }}>
-        <ul>
-          <li id="listItem">
-            jjsdj
-          </li>
-        </ul>
-      </div>
 
+      {/* Need to render Form AddPlayer here */}
+      <FormAddPlayer />
     </div>
   )
 
