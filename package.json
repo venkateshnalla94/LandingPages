@@ -35,5 +35,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "overrides": {
+    "tar": "^6.2.1"
+  },
+  "resolutions": {
+    "tar": "^6.2.1"
   }
 }
